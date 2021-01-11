@@ -1,4 +1,4 @@
-This is a collection of terraform configuration files you can try out. I will keep adding other resources. I have been creating this to mainly for people I work with to try out out and get familliar with terraform
+This is a collection of terraform configuration files you can try out. I will keep adding other resources. I have been creating this mainly for people I work with to try out out and get familliar with terraform
 
 Use the code by cutting and pasting it into your favourite development tool.
 
