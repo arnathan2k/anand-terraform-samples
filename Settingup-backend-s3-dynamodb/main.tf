@@ -16,7 +16,7 @@ provider "aws" {
 
 
 resource "aws_dynamodb_table" "terraform_statelock" {
-  name = "${var.aws_dynamodb_table}"
+  name = var.aws_dynamodb_table
   read_capacity = 5
   write_capacity = 5
   hash_key = "LockID"
@@ -28,7 +28,7 @@ resource "aws_dynamodb_table" "terraform_statelock" {
 }
 
 resource "aws_s3_bucket" "terraform_state_bucket" {
-  bucket = "${var.aws_remotestate_bucket}"
+  bucket = var.aws_remotestate_bucket
   acl = "private"
   force_destroy = true
 
