@@ -25,6 +25,5 @@ You should be able to run these by following these simple steps
 4. run  - terraform apply
 
 to cleanup run terraform destroy.
-
-**** MAKE SURE not to checkin your statefiles ****
+**** MAKE SURE not to checkin your statefiles ***
 
