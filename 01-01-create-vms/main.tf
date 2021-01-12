@@ -3,7 +3,7 @@ resource "aws_instance" "testVM_California" {
     provider = aws.California
     ami = "ami-03130878b60947df3"
     instance_type = "t2.micro"
-    count = 3
+    count = 1
  
 }
 resource "aws_instance" "testVM_Oregon" {

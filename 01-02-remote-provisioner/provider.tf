@@ -1,4 +1,9 @@
 provider "aws" {
+    alias = "Oregon"
+    region="us-west-2"
+}
 
-    region = "us-west-1"
+provider "aws" {
+    alias = "California"
+    region="us-west-1"
 }
