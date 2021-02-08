@@ -19,6 +19,7 @@ resource "aws_dynamodb_table" "terraform_statelock" {
   name = var.aws_dynamodb_table
   read_capacity = 5
   write_capacity = 5
+  // Terraform will not work if you change it
   hash_key = "LockID"
 
   attribute {

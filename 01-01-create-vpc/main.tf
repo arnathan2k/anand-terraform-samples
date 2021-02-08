@@ -9,7 +9,7 @@ resource "aws_vpc" "testVPC1_california" {
     instance_tenancy     = var.instanceTenancy 
     enable_dns_support   = var.dnsSupport 
     enable_dns_hostnames = var.dnsHostNames
-    enable_nat_gateway = true
+    //enable_nat_gateway = true
  
 }
 
